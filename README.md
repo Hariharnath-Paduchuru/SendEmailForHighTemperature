@@ -56,15 +56,27 @@ Read temperature and humidity values from DHT 11 sensor by interfacing it with R
 
 ![IoT Hub End to End Workflow with Logic Apps](iot-hub-e2e-logic-apps.png)
 
-### Step 4: Save the Code
+### Step 5: Save the Code
 
 - Create a new file on your Raspberry Pi and save the provided Python code into that file, for example, `send_DHT11_AzureIoT_Pi.py`.
 
-### Step 5: Obtain the Device Connection String
+### Step 6: Obtain the Device Connection String
 
 - Replace `<your_device_connection_string>` in the code with the actual connection string for your Azure IoT Hub device. You can find the connection string in the Azure portal under your IoT Hub's "Shared access policies" section.
 
-### Step 6: Run the Code
+### Step 7: Azure Setup steps
+
+Refer to the [Youtube tutorial]() for all the steps mentioned here
+
+- Create a Service Bus namespace
+- Add a Service Bus queue to the namespace
+- Add a custom endpoint and routing rule to your IoT hub
+- Create and configure a Logic App
+- Configure the logic app trigger
+- Configure the logic app action
+- Test the logic app
+
+### Step 8: Run the Code
 
 - Open a terminal on your Raspberry Pi.
 
