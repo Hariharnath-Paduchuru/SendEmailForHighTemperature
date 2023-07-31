@@ -89,7 +89,7 @@ Refer to the [Youtube tutorial]() for all the steps mentioned here
     python3 send_DHT11_AzureIoT_Pi.py
     ```
 
-- The code will now start sending DHT11 values to your Azure IoT Hub device. You should see the message being printed on the console as well.
+- The code will now send DHT11 values to your Azure IoT Hub device. You should also see the message being printed on the Raspberry Pi console.
+- The message with the property 'temperatureAlert= true' will reach the Service bus and the remaining messages will reach to default endpoint.
+- The Logic App will be triggered when messages reach the Service bus and the Action of sending an email will be done.
 
-
-That's it! You have successfully run the Python code on your Raspberry Pi to send temperature and humidity to your Azure IoT Hub device.
