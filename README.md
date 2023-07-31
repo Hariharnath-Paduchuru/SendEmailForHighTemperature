@@ -47,11 +47,10 @@ Read temperature and humidity values from DHT 11 sensor by interfacing it with R
 
 ### Step 3: Hardware schematic
 - Three pin DHT11
-<img src="./DHT11-on-the-Raspberry-Pi-Three-pin-DHT11-Wiring-Diagram.png" width=50% height=50%>
-![Hardware Schematic](./DHT11-on-the-Raspberry-Pi-Three-pin-DHT11-Wiring-Diagram.png)
+<img src="./DHT11-on-the-Raspberry-Pi-Three-pin-DHT11-Wiring-Diagram.png" width=70% height=70%>
 
 - Four pin DHT11
-![Hardware Schematic](./DHT11-on-the-Raspberry-Pi-Four-pin-DHT11-Wiring-Diagram.png)
+<img src="./DHT11-on-the-Raspberry-Pi-Four-pin-DHT11-Wiring-Diagram.png" width=70% height=70%>
 
 ### Step 4 Workflow of the Project
 
