@@ -52,7 +52,9 @@ Read temperature and humidity values from DHT 11 sensor by interfacing it with R
 - Four pin DHT11
 ![Hardware Schematic](./DHT11-on-the-Raspberry-Pi-Four-pin-DHT11-Wiring-Diagram.png)
 
-### Step 4 Architecture of the Project
+### Step 4 Workflow of the Project
+
+![IoT Hub End to End Workflow with Logic Apps](iot-hub-e2e-logic-apps.png)
 
 ### Step 4: Save the Code
 
