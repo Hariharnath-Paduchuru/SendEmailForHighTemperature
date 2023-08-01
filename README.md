@@ -43,6 +43,7 @@ Read temperature and humidity values from DHT 11 sensor by interfacing it with R
 - DHT11 Sensor
 - Jumper wires
 - Breadboard (if needed)
+- 4.7K ohm resistor (if using 4 pin DHT11)
 - Micro USB 5V, 2.4A Power supply
 
 ### Step 3: Hardware schematic
